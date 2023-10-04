@@ -1,0 +1,14 @@
+.DS_Store
+.idea/
+.vscode/*
+coverage/
+dist/
+docs/
+build/
+types/
+node_modules/
+npm-debug.log
+*.tsbuildinfo
+stats.html
+**/._*
+**/._*.vue
