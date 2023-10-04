@@ -1,0 +1,14 @@
+name: Do It!
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - edited
+      - synchronize
+      - ready_for_review
+
+jobs:
+  do-it-now:
+    uses: NaturalArtMedia/.github/.github/workflows/draft-release.yml@main
